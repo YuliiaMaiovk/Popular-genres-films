@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+    .container{
+        width: 90%;
+        min-height: 100%;
+        margin: 0 auto;
+        
+    }
+    .section{
+        height: 100vh;
+        padding-top: 60px;
+    }
+    .header{
+        height: 60px;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        background-color: cadetblue;
+        box-shadow:  0 0 10px 0 black;
+    }
+    #Comedy{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: cornsilk;
+        
+    }
+    #Fantasy{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color:darksalmon;
+        
+    }
+    #Horrors{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: darkgrey;
+        
+    }
+    #trailer{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: pink;
+        
+    }
+    #Contacts{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color:silver;
+    }
+    .header-logo{
+        width: 20%;
+        height: 10px;
+        background-color:cadetblue;
+        
+    }
+    .menu{
+        width: 50%;
+        height: 60px;
+        background-color:cadetblue;
+        
+    }
+    .d-flex{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .menu-link{
+        display: block;
+        width: 110px;
+        height: 40px;
+        border: 2px solid black;
+        text-decoration: none;
+        color: white;
+        background-color: cadetblue;
+        font-size: 19px;
+        font-family: monospace;
+        text-align: center;
+       line-height: 40px;
+       border-radius: 10px;
+    
+    }
+    .logo-link{
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        font-family:monospace;
+    }
+    .box{
+        display: block;
+        padding-top: 10px ;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+       border: thistle 3px solid;
+       margin: 20px 20px;
+        
+    }
+    .box2{
+        display: block;
+        width: 600px;
+        height: 400px; 
+        background: url(./img/);
+        background-size: cover;
+        border:gray 5px solid;
+        margin: auto;
+        border-radius: 30px; 
+        
+        
+       
+    }
+    .box3{
+        display: block;
+        width: 600px;
+        height: 400px;
+        background: url(./img/);
+        background-size: cover;
+        margin:  auto;
+        border:grey 5px solid ;
+        border-radius: 30px; 
+        
+    }
+    .box4{
+        display: block;
+        width: 600px;
+        height: 400px;
+        background: url(./img/);
+        background-size: cover;
+        margin:  auto;
+        border:steelblue 5px solid ;  
+        border-radius: 30px; 
+    }
+    #Contacts{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: 200px;
+        margin-top: 50px;
+    }
+    #Contacts>h2 {
+        margin-bottom: 20px;
+        word-wrap: break-word;
+    }
+    
+    #Contacts input[type='email'] {
+        max-width: 275px;
+        width: 100%;
+        padding: 5px;
+    }
+    
+    #Contacts input[type='submit'] {
+        max-width: 150px;
+        width: 100%;
+        height: 30px;
+        margin: 15px 0;
+        border: 0;
+        background-color: powderblue;
+    }
+    
+    #Contacts input[type='submit']:hover {
+        background-color: purple;
+        transition: background-color 1s;
+    }
+    
+    @media (max-width: 650px) {
+        #Contacts {
+            margin-top: 120px;
+        }
+    }
+    .header_logo-image {
+        width: 100%;
+        height: 100%;
+        max-width: 91px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-left: 20px;
+    }
+    .header_logo {
+        width: 100%;
+        height: 100%;
+        max-width: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-left: 20px;
+    }
+    
+    @media (max-width: 650px) {
+        .header_logo {
+            margin: 0 auto;
+        }
+    }
+    .movie-trailer__content-video{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 600px;
+        height: 400px;
+        background-size: cover;
+        margin:  auto;
+        border:steelblue 5px solid ;  
+        border-radius: 30px; 
+    }
