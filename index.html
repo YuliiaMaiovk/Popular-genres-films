@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,62 +8,21 @@
     <title>Popular genres films</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header id="header" class="header">
         <div class="container d-flex">
-            <div class="header-logo">
-                <a href="#" class="logo-link"><b>Popular genres films</b></a>
-            </div>
             <div class="header_logo">
                 <img class="header_logo-image" id="header-img" src="img/svg.jpg" alt="genre-film-logo">
             </div>
             <nav id="nav-bar" class="menu d-flex">
-                <a href="#Comedy" class="menu-link">comedy</a>
-                <a href="#Fantasy" class="menu-link">fantasy</a>
-                <a href="#Horrors" class="menu-link">horrors</a>
+                <a href="#genres" class="menu-link">genres</a>
                 <a href="#trailer" class="menu-link">trailer</a>
                 <a href="#Contacts" class="menu-link">contacts</a>
+                <a href="#details" class="menu-link">details</a>
             </nav>
         </div>
     </header>
-    <section class="section" id="Comedy">
-        <div class="container">
-            <h2>Comedy</h2>
-            <div class="box">Comedy is a story that tells about a series of funny, or comical events, intended to make
-                the audience laugh. It is a very open genre, and thus crosses over with many other genres on a frequent
-                basis.</div>
-            <div class="box2"></div>
-        </div>
-    </section>
-    <section class="section" id="Fantasy">
-        <div class="container">
-            <h2>Fantasy</h2>
-            <div class="box">A fantasy story is about magic or supernatural forces, rather than technology (as science
-                fiction) if it happens to take place in a modern or future era. Depending on the extent of these other
-                elements, the story may or may not be considered to be a "hybrid genre" series.</div>
-            <div class="box3"></div>
-        </div>
-    </section>
-    <section class="section" id="Horrors">
-        <div class="container">
-            <h2>Horrors</h2>
-            <div class="box">A horror story is told to deliberately scare or frighten the audience, through suspense or
-                shock. Horror may also overlap with the fantasy, supernatural fiction, and thriller genres.</div>
-            <div class="box4"></div>
-
-        </div>
-    </section>
-    <section class="section" id="trailer">
-        <div class="container">
-            <h2>Trailer</h2>
-                <div class="box">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae, fugiat nostrum? Quos
-                    odio, placeat mollitia ab fuga atque fugit repellat reiciendis aperiam suscipit ea at
-                    quia cum dolor magnam sint.</div>
-                <div class="movie-trailer__content-video">
-                    <iframe width="560" height="315" src="https://www.youtube.com/watch?v=f6LogImdzfw" allowfullscreen></iframe>
-                </div>
-        </div>
-    </section>
     <section class="section" id="Contacts">
         <h2>Contacts</h2>
         <form id="form" action="https://www.freecodecamp.com/email-submit">
@@ -70,9 +30,90 @@
             <input id="submit" type="submit" value="Send" class="btn">
         </form>
     </section>
+    <section class="section" id="genres">
+        <div class="container">
+            <div class="grid">
+                <div class="icon"><img src="img/" alt="comedy-icon"></div>
+                <div class="desc">
+                    <h2>Comedy</h2>
+                    <p>Comedy is a story that tells about a series of funny, or comical events, intended to make the
+                        audience laugh. It is a very open genre, and thus crosses over with many other genres on a
+                        frequent basis.
+                    </p>
+                </div>
+            </div>
+            <div class="grid">
+                <div class="icon"><img src="img/" alt="fantasy-icon"></div>
+                <div class="desc">
+                    <h2>Fantasy</h2>
+                    <p> A fantasy story is about magic or supernatural forces, rather than technology (as science
+                        fiction) if it happens to take place in a modern or future era. Depending on the extent of these
+                        other elements, the story may or may not be considered to be a "hybrid genre" series.
+                    </p>
+                </div>
+            </div>
+            <div class="grid">
+                <div class="icon"><img src="img/" alt="horror-icon"></div>
+                <div class="desc">
+                    <h2>Horror</h2>
+                    <p> A horror story is told to deliberately scare or frighten the audience, through suspense or
+                        shock. Horror may also overlap with the fantasy, supernatural fiction, and thriller genres.
+                    </p>
+                </div>
+            </div>
+            <div class="box2"></div>
+        </div>
+    </section>
 
 
-
+    <section class="section" id="trailer">
+        <div class="container">
+            <h2>Trailer</h2>
+            <div class="box">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae, fugiat nostrum? Quos
+                odio, placeat mollitia ab fuga atque fugit repellat reiciendis aperiam suscipit ea at
+                quia cum dolor magnam sint.</div>
+            <div class="movie-trailer__content-video">
+                <iframe width="560" height="315" src="https://www.youtube.com/watch?v=f6LogImdzfw"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+    <section class="section" id="details">
+        <div class="container">
+            <div class="product" id="comedy-details">
+                <div class="level">Comedy</div>
+                <h2>Type:</h2>
+                <ol>
+                    <li>Film comedy</li>
+                    <li>Serial comedy</li>
+                    <li>Family comedy</li>
+                </ol>
+                <button class="btn">I want watch it!</button>
+            </div>
+            <div class="product" id="fentasy-details">
+                <div class="level">Fentasy</div>
+                <h2>Type:</h2>
+                <ol>
+                    <li>Film fentasy</li>
+                    <li>Serial fentasy</li>
+                    <li>Family fentasy</li>
+                </ol>
+                <button class="btn">I want watch it!</button>
+            </div>
+            <div class="product" id="horror-details">
+                <div class="level">Horror</div>
+                <h2>Type:</h2>
+                <ol>
+                    <li>Film horror</li>
+                    <li>Serial horror</li>
+                </ol>
+                <button class="btn">I want watch it!</button>
+            </div>
+        </div>
+    </section>
 
 </body>
+
 </html>
